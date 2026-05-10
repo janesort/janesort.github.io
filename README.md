@@ -2,6 +2,15 @@
 
 https://bbtssort.github.io/
 
+# Customizing this repo
+
+This repo is a copy of the BBTS sorter. You'll need to do the following to customize it to another band:
+
+1. Look through [index.html](./index.html) for all references to BBTS such as links and other text. Replace them with the links for the new band.
+2. Replace all the images in [img/albums](./img/albums) with album covers for the new band. See [CONTRIBUTING.md](./.github/CONTRIBUTING.md#image-sizes) for recommended image sizes
+3. Replace the [img/bandlogo.png](./img/bandlogo.png) with another image. If it's not a `png` file be sure to update [index.html](./index.html) with the correct name
+4. Replace the [img/favicon.png](./img/favicon.png) and [img/apple-touch-icon.png](./img/apple-touch-icon.png) with the favicon from the band's site. This is usually located at `https://<bandwebsite>/favicon.ico`. If it's not there you'll need to find it in the web page's source.
+5. Update all the albums and songs in [data.js](./js/data.js)
 
 # Adding albums and songs
 
