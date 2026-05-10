@@ -16,12 +16,6 @@ The site uses ES modules, which require an HTTP server (won't work via `file://`
 1. Run `npm start`
 2. To stop the server later press `Ctrl + C`. If the server won't stop, run `npm run stop` and it will kill whatever is bound to port 8000.
 
-### Running unit tests
-
-1. Run `npm run build`
-
-`npm test` will catch most data-shape regressions before you push: missing required fields on an album entry, non-unique album ids, malformed song objects, broken `buildSongList` dedup, sort-engine misbehavior, etc. If you change anything in `js/data.js` or `js/sort.js`, run it.
-
 ## Verifying your data
 
 A quick sanity check from the command line:

@@ -55,7 +55,7 @@ Follow the steps below to add or modify albums and songs:
     ```
 
 3. **Test your changes** 
-   * Run `npm start` to open the web browser to test your changes. Allow Node.js if prompted. If you get an error, see [Testing locally](.github/CONTRIBUTING.md#testing-locally).
+   * Run `npm start` to open the web browser to test your changes. Allow Node.js if prompted. If you get an error, try running `npm install` first.
 
 4. **Push your changes to GitHub**
    * No code changes needed elsewhere. Push your changes to GitHub and you're done.
