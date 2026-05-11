@@ -1,18 +1,3 @@
-// Album catalog. To add a new album, append a new object to ALBUMS with:
-//   id     - unique kebab-case slug (used as DOM value, must be unique)
-//   title  - human-readable album name (shown in UI)
-//   year   - release year (used to sort albums chronologically)
-//   cover  - path to cover image, relative to the page
-//   songs  - array of song objects in track order. Each song is { title, translation? }:
-//              title       — the song's primary title (Japanese for most BBTS tracks)
-//              translation — (optional) English / romaji rendering shown as subtext
-//            Duplicate titles across albums are fine; each instance is treated separately.
-//   single - (optional) true if this is a standalone single — gets bundled into the
-//            "Singles" tile on the album grid instead of getting its own tile.
-//
-// Albums are listed alphabetically by title in this file for easier maintenance.
-// At runtime they are sorted by year on export, so file order does not affect the UI.
-
 const RAW_ALBUMS = [
   {
     id: "an-aliens-portrait",
